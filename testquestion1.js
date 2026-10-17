@@ -13,6 +13,6 @@ function draw(){
     circle(posX ,height/2 ,100);
     posX= posX+xSpeed;
     if (posX> width){
-        xSpeed = xSpeed
+        xSpeed = xSpeed*-1;
     }
 }
