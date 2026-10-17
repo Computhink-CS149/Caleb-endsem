@@ -13,7 +13,7 @@ function setup(){
 function draw(){
     textSize(20);
     for(let i = 0; i< 4; i = i+1){
-        text(pokemons[i])
+        text(pokemons[i],XSLTProcessor,ypos)
 
     }
 
