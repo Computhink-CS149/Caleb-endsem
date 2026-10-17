@@ -11,5 +11,5 @@ function draw(){
     background("white");
     fill('limegreen');
     circle(posX ,height/2 ,100);
-    posx= posx+xSpeed;
+    posX= posX+xSpeed;
 }
