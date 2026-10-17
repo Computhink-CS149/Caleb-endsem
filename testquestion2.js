@@ -10,15 +10,10 @@ function setup(){
     // Task: Align the text to the center using textAlign
     // Task: set font size to 20 using textSize
     yPos = 100;
-    
-}
-
-function draw(){
-    
     textSize(20);
-    for(let i = 0; i< 4; i = i+1){
+    for(let i = 0; i< 5; i = i+1){
         text(pokemons[i],width/2,yPos);
         yPos = yPos + 30
-    }
-
+    
+}
 }
