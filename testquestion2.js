@@ -17,7 +17,7 @@ function draw(){
     textSize(20);
     for(let i = 0; i< 4; i = i+1){
         text(pokemons[i],xPos,yPos);
-        xpos=xPos
+        xPos=xPos+30;
     }
 
 
