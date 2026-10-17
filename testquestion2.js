@@ -5,7 +5,7 @@ let yPos;
 function setup(){
     createCanvas(200, 300);
     background("black");
-    fill("pink");
+    
     textAlign(CENTER,CENTER);
     // Task: Align the text to the center using textAlign
     // Task: set font size to 20 using textSize
