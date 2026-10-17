@@ -1,5 +1,6 @@
 let pokemons = ["Pikachu","Raichu","Bulbasaur","Mewtwo","Charizard"];
 let yPos;
+let xpos;
 
 function setup(){
     createCanvas(200, 300);
