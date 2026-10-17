@@ -6,3 +6,8 @@ function setup(){
     xSpeed = 5;
     fill('limegreen');
 }
+
+function draw(){
+    background()
+
+}
