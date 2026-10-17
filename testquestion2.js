@@ -17,6 +17,7 @@ function draw(){
     background("black");
     textSize(20);
     for(let i = 0; i< 4; i = i+1){
+        fill("pink");
         text(pokemons[i],width/2,yPos);
         yPos = yPos + 30
     }
