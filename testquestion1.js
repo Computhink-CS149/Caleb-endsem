@@ -12,7 +12,7 @@ function draw(){
     fill('limegreen');
     circle(posX ,height/2 ,100);
     posX= posX+xSpeed;
-    if (posX> width{
-
+    if (posX> width){
+        
     }
 }
