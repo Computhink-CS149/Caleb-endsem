@@ -4,7 +4,7 @@ let xPos;
 
 function setup(){
     createCanvas(200, 300);
-    background()
+    background("black");
     fill("pink");
     textAlign(CENTER,CENTER);
     // Task: Align the text to the center using textAlign
