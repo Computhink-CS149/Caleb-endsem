@@ -15,7 +15,7 @@ function draw(){
     if (posX> width-25){
         xSpeed = xSpeed*-1;
     }
-    if (posX < 25){
+    if (posX < 0+ 25){
         xSpeed = xSpeed*-1;
     }
 }
