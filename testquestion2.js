@@ -13,9 +13,10 @@ function setup(){
 }
 
 function draw(){
-    background('white');
+    background("white');
     textSize(20);
     for(let i = 0; i< 4; i = i+1){
+        fill("black");
         text(pokemons[i],xPos,yPos);
         xPos=xPos+30;
     }
