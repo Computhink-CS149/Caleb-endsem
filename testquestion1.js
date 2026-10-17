@@ -9,6 +9,6 @@ function setup(){
 
 function draw(){
     background("white");
-    circle(posX,height/2,)
+    circle(posX ,height/2 ,10);
 
 }
