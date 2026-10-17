@@ -11,6 +11,8 @@ function setup(){
 }
 
 function draw(){
+textSize(20);
+
 
 
 }
