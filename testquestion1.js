@@ -9,6 +9,6 @@ function setup(){
 
 function draw(){
     background("white");
-    
+    circle()
 
 }
