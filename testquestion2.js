@@ -4,6 +4,7 @@ let xPos;
 
 function setup(){
     createCanvas(200, 300);
+    background()
     fill("pink");
     textAlign(CENTER,CENTER);
     // Task: Align the text to the center using textAlign
@@ -13,10 +14,10 @@ function setup(){
 }
 
 function draw(){
-    background("white");
+    
     textSize(20);
     for(let i = 0; i< 4; i = i+1){
-        fill("black");
+        
         text(pokemons[i],xPos,yPos);
         xPos=xPos+30;
     }
