@@ -9,8 +9,7 @@ function setup(){
 
 function draw(){
     background("white");
-    noStroke();
     fill('limegreen');
-    circle(posX ,height/2 ,100,100);
-
+    circle(posX ,height/2 ,100);
+    
 }
