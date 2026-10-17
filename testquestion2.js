@@ -10,6 +10,7 @@ function setup(){
     yPos = 100;
 }
 
-function draw()
+function draw(){
 
 
+}
