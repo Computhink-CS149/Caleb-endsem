@@ -11,8 +11,11 @@ function setup(){
 }
 
 function draw(){
-textSize(20);
+    textSize(20);
+    for(let i = 0; i< 4; i = i+1){
+        
 
+    }
 
 
 }
